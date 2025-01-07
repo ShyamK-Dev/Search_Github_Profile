@@ -1,1 +1,1 @@
-# Search_Github_Profile_App
+Search GitHub Profile is a simple and efficient web app that allows you to quickly find and explore GitHub profiles. Just enter a username, and instantly access details such as repositories, contributions, followers, and more. With a clean, user-friendly interface, it makes browsing GitHub profiles easy and fast, whether you're looking for potential collaborators, exploring open-source projects, or researching developers. Perfect for anyone who wants to dive deeper into the GitHub community without the hassle.
