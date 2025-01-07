@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Oswald", sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 4rem;
+    background-image: url("images/image1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container h1 {
+    background: hsla(186, 33%, 94%, 1);
+
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1);
+
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* search section */
+.search {
+    display: flex;
+    width: 50%;
+    max-width: 60rem;
+}
+
+.search input {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border: 1px solid #74746D;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.search input:focus-visible {
+    outline: 1px solid #4A4A45;
+}
+
+.primaryBtn {
+    background: hsla(186, 33%, 94%, 1);
+
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1);
+
+    /* background-color: #4A4A45; */
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.primaryBtn:hover {
+    background: hsla(186, 33%, 94%, 1);
+
+    background: radial-gradient(circle, hsla(186, 33%, 94%, 1) 20%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -moz-radial-gradient(circle, hsla(186, 33%, 94%, 1) 20%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -webkit-radial-gradient(circle, hsla(186, 33%, 94%, 1) 20%, hsla(216, 41%, 79%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ebf4f5", endColorstr="#b5c6e0", GradientType=1);
+
+    cursor: pointer;
+}
+
+.primaryBtn:active {
+    background: hsla(228, 17%, 53%, 1);
+
+    background: linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1);
+
+    color: black;
+}
+
+/* card section */
+.btn {
+    border-radius: 2rem;
+    border: none;
+}
+
+#profileContainer {
+    width: 100%;
+}
+
+
+
+.profile-box {
+    margin: auto;
+    padding: 4rem 3rem;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    width: 70%;
+    min-width: 78rem;
+    transition: 0.5s ease-in;
+
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(1rem);
+
+    border-radius: 2rem;
+}
+
+.profile-box:hover {
+    transform: rotate(-2deg) scale(1.05);
+    transition: 0.5s ease-in;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-section button {
+    align-self: center;
+}
+
+.self h1 {
+    background: hsla(186, 33%, 94%, 1);
+
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1);
+
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.left h1 {
+    font-size: 1.6rem;
+}
+
+.avtar {
+    height: 10rem;
+    width: 10rem;
+}
+
+.avtar img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about {
+    margin: 2rem;
+}
+
+.about h2,
+.about p {
+    background: hsla(186, 33%, 94%, 1);
+
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1);
+
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.status {
+    display: grid;
+    margin: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.status h2,
+.status p {
+    background: hsla(186, 33%, 94%, 1);
+
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1);
+
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.status-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* media query */
+@media (max-width:768px) {
+    .profile-box {
+        padding: 3rem 1.8rem;
+        width: 80%;
+        min-width: 68rem;
+    }
+}
+
+@media (max-width:425px) {
+    .search {
+        width: 80%;
+    }
+
+    .profile-box {
+        padding: 1.5rem 1.5rem;
+        min-width: 35rem;
+    }
+
+    .top-section {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .left {
+        align-self: center;
+    }
+
+    .about {
+        margin-top: 1rem;
+    }
+
+    .status {
+        margin-top: 1rem;
+    }
+
+    .container {
+        gap: 2rem;
+    }
+
+}
+
+@media (max-width:375px) {
+    .container h1 {
+        font-size: 3.1rem;
+    }
+
+    .self h1 {
+        font-size: 1.6rem;
+    }
+
+    .profile-box {
+        padding: 1.2rem 1.2rem;
+        min-width: 32rem;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .status-item h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:320px) {
+    .container h1 {
+        font-size: 2.5rem;
+    }
+
+    .search {
+        width: 85%;
+    }
+
+    .self h1 {
+        font-size: 1.6rem;
+    }
+
+    .profile-box {
+        padding: 1rem 1rem;
+        min-width: 28rem;
+    }
+
+
+}
